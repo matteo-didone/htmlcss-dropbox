@@ -45,10 +45,8 @@
 
             <section class="jumbotron">
                 <div class="hero container flex">
-                    <div class="h1-hero">
-                        <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>                 
-                    </div>
-
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>                 
+                
                     <div class="main-and-aside">
                         <div class="aside">
                             <p>
@@ -65,7 +63,7 @@
                             <img src="./img/jumbo.png" alt="client-proposal" class="main-picture jumbo-picture">
                         </div>
                     </div>
-                    
+
                 </div>
             </section>
 
@@ -73,104 +71,127 @@
 
         <main>
 
-            <section class="container" id="section-1">
+            <section class="plans-section" id="section-1">
                 <div class="container flex">
 
-                    <div>
-                        <h2>Trova il piano business che fa per te</h2>
-                    </div>
+                    <h2>Trova il piano business che fa per te</h2>
 
-                    <div>
-                        <label>
+                    <div class="radio-buttons">
+                        <label class="monthly-billing">
                             <input type="radio" name="billing" value="monthly">
-                            Fatturazione mensile
+                            <p>Fatturazione mensile</p>
                         </label>
 
-                        <label>
+                        <label class="yearly-billing">
                             <input type="radio" name="billing" value="yearly">
-                            Fatturazione annuale
+                            <p>Fatturazione annuale</p>
                         </label>
                     </div>
 
                     <!--Three Columns-->
                     <div class="all-plans">
                         <div class="plan professional">
-                            <p><i class="fa-solid fa-user" style="color: #000000;"></i> Singolo</p>
-                            <h3>Professional</h3>
-                            <p>€ 12.00</p>
-                            <p>/ mese</p>
 
-                            <ul>
-                                <li><i class="fa-solid fa-user" style="color: #000000;"></i> 1 utente</li>
-                                <li><i class="fa-solid fa-folder" style="color: #000000;"></i> 5 TB di spazio</li>
-                                <li><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
-                            </ul>
+                            <div class="name-of-plan"> 
+                                <p><i class="fa-solid fa-user" style="color: #000000;"></i> Singolo</p>
+                            </div>
 
-                            <button class="button free-trial">Prova gratis per 30 giorni</button>
+                            <div class="plan-description">
+                                <h3>Professional</h3>
+                                <p>€ 12.00</p>
+                                <p>/ mese</p>
+                            </div>
 
-                            <p>oppure <a href="#">acquista ora</a></p>
-                            
-                            <!--small line that separates-->
+                            <div class="plan-details">
+                                <ul>
+                                    <li><i class="fa-solid fa-user" style="color: #000000;"></i> 1 utente</li>
+                                    <li><i class="fa-solid fa-folder" style="color: #000000;"></i> 5 TB di spazio</li>
+                                    <li><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                                </ul>
+    
+                                <button class="button free-trial">Prova gratis per 30 giorni</button>
+    
+                                <p>oppure <a href="#">acquista ora</a></p>
+                                
+                                <!--small line that separates-->
+    
+                                <h5>Punti Salienti del Piano</h5>
+                                <ul>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Invia file fino a 100 GB con Dropbox Transfert</li>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Cartelle offline su dispositivi mobili</li>
+                                </ul>
+                            </div>
 
-                            <h5>Punti Salienti del Piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Invia file fino a 100 GB con Dropbox Transfert</li>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Cartelle offline su dispositivi mobili</li>
-                            </ul>
                         </div>
 
                         <div class="plan advanced">
-                            <p><i class="fa-solid fa-users" style="color: #000000;"></i> Team</p>
-                            <h3>Advanced</h3>
-                            <p>€ 18.00</p>
-                            <p>/utente/mese</p>
+                            <div class="name-of-plan">
+                                <p><i class="fa-solid fa-users" style="color: #000000;"></i> Team</p>
+                            </div>
 
-                            <ul>
-                                <li><i class="fa-solid fa-users" style="color: #000000;"></i> 3 o più utenti</li>
-                                <li><i class="fa-solid fa-folder" style="color: #000000;"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
-                                <li><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
-                            </ul>
+                            <div class="plan-description">
+                                <h3>Advanced</h3>
+                                <p>€ 18.00</p>
+                                <p>/utente/mese</p>
+                            </div>
 
-                            <button class="button free-trial">Prova gratis per 30 giorni</button>
+                            <div class="plan-details">
+                                <ul>
+                                    <li><i class="fa-solid fa-users" style="color: #000000;"></i> 3 o più utenti</li>
+                                    <li><i class="fa-solid fa-folder" style="color: #000000;"></i> Tutto lo spazio di cui ha bisogno il tuo team</li>
+                                    <li><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                                </ul>
+    
+                                <button class="button free-trial">Prova gratis per 30 giorni</button>
+    
+                                <p>oppure <a href="#">acquista ora</a></p>
+                                
+                                <!--small line that separates-->
+    
+                                <h5>Punti Salienti del Piano</h5>
+                                <ul>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Nessun limite di spazio per i file</li>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Possibilità di inserire nuovi membri del team</li>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Gestione dei permessi in base ai ruoli</li>
+                                </ul>
+                            </div>
 
-                            <p>oppure <a href="#">acquista ora</a></p>
-                            
-                            <!--small line that separates-->
-
-                            <h5>Punti Salienti del Piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Nessun limite di spazio per i file</li>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Cartelle offline su dispositivi mobili</li>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Risparmio del 50% rispetto alle iscrizioni singole</li>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Possibilità di inserire nuovi membri del team</li>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Gestione dei permessi in base ai ruoli</li>
-                            </ul>
                         </div>
 
                         <div class="plan enterprise">
-                            <p><i class="fa-solid fa-building" style="color: #000000;"></i> Azienda</p>
-                            <h3>Enterprise</h3>
-                            <p>Contattaci</p>
-                            <p>-</p>
+                            <div class="name-of-plan">
+                                <p><i class="fa-solid fa-building" style="color: #000000;"></i> Azienda</p>
+                            </div>
 
-                            <ul>
-                                <li><i class="fa-solid fa-user" style="color: #000000;"></i> 10 o più utenti</li>
-                                <li><i class="fa-solid fa-folder" style="color: #000000;"></i> Soluzioni personalizzabili per la tua azienda</li>
-                                <li><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
-                            </ul>
+                            <div class="plan-description">
+                                <h3>Enterprise</h3>
+                                <p>Contattaci</p>
+                                <p>-</p>
+                            </div>
 
-                            <button class="button contact-us">Contattaci</button>
-
-                            <p>oppure <a href="#">acquista ora</a></p>
+                            <div class="plan-details">
+                                <ul>
+                                    <li><i class="fa-solid fa-user" style="color: #000000;"></i> 10 o più utenti</li>
+                                    <li><i class="fa-solid fa-folder" style="color: #000000;"></i> Soluzioni personalizzabili per la tua azienda</li>
+                                    <li><i class="fa-solid fa-share-nodes" style="color: #000000;"></i>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                                </ul>
+    
+                                <button class="button contact-us">Contattaci</button>
+    
+                                <p>oppure <a href="#">acquista ora</a></p>
+                                
+                                <!--small line that separates-->
+    
+                                <h5>Punti Salienti del Piano</h5>
+                                <ul>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Cartelle offline su dispositivi mobili</li>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Servizio assistenza 24/h</li>
+                                    <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Possibilità di personalizzazione totale</li>
+                                </ul>
+                            </div>
                             
-                            <!--small line that separates-->
-
-                            <h5>Punti Salienti del Piano</h5>
-                            <ul>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Cartelle offline su dispositivi mobili</li>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Servizio assistenza 24/h</li>
-                                <li><i class="fa-solid fa-check" style="color: #1f64ff;"></i>Possibilità di personalizzazione totale</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
