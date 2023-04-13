@@ -11,3 +11,197 @@
     font-family: 'Marble Display';
     src: url('./font/Marble\ Display.otf') format('otf'),
 }
+
+/*Classi "utility" generiche*/
+.flex
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.margin-auto
+{
+    margin: auto;
+}
+
+.height-100
+{
+    height: 100%;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul 
+{
+    list-style: none;
+    display: flex;
+}
+
+li 
+{
+    margin-right: 1rem;
+}
+
+a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+header
+{
+    background-color: white;
+    width: 100%;
+    height: 80px; /*To be removed*/
+}
+
+body
+{
+    font-size: 1.25rem;
+    min-width: 850px;
+}
+
+.left-header
+{
+
+}
+
+.right-header
+{
+
+}
+
+.button
+{
+    background-color: rgba(1,97,255,255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 234px;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+.find-partner
+{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    width: 165px;
+    height: 45px;
+}
+
+#smaller-button
+{
+    height: 35px;
+    width: 75px;
+}
+
+.jumbotron
+{
+    background-color: rgba(180,208,231,255);
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.purchase-now, .find-out-more
+{
+    color: rgba(79,119,240,255);
+    text-decoration: underline;
+}
+
+.hero
+{
+    width: 60%;
+    padding: 2rem 2rem;
+    line-height: 1.8rem ;
+}
+
+.dropbox-business-to-your-company
+{
+    background-color: rgba(180,208,231,255);
+    background-size: cover;
+}
+
+.white-fill
+{
+    fill:white;
+}
+
+section.jumbotron .hero h1
+{
+    font-size: 3.25rem;
+    line-height: 4rem;
+    padding-bottom: 2rem;
+}
+
+section.jumbotron .hero p
+{
+    padding-bottom: 2rem;
+}
+
+
+main>section
+{
+    padding: 8rem 0;
+}
+
+main section img
+{
+    width: 100%;
+}
+
+main section h2
+{
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+main section div.main
+{
+    width: 60%;
+}
+
+main section div.aside
+{
+    width: 40%;
+    padding: 2rem;
+}
+
+main section div.main-and-aside
+{
+    /* background-color: #1e7b1e; */
+    width: 100%;
+    /* height: 800px; */
+}
+
+main section .main-and-aside .content
+{
+    padding: 0 5rem;
+}
+
+footer
+{
+    color: white;
+    background-color: rgba(0,0,0,255);
+}
+
+.bottom-footer p 
+{
+    color: #575a5f;
+}
+
+
+
