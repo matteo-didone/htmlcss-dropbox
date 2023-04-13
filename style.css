@@ -3,5 +3,11 @@
 {   margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Marble Display', sans-serif;
 }
 
+@font-face 
+{
+    font-family: 'Marble Display';
+    src: url('./font/Marble\ Display.otf') format('otf'),
+}
