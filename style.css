@@ -520,7 +520,80 @@ ul.highlights li
     top: 33px;
     right: 0px;
     margin-right: 0px;
-}  
+}
+
+.dropbox-business-to-your-company
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbox-business-to-your-company-container
+{
+    width: 1080px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.dropbox-business-to-your-company h2
+{
+    width: 600px;
+    height: 110px;
+    position: relative;
+    margin: 0;
+
+}
+
+#white-button-free-trial
+{
+    color: black;
+    background-color: white;
+    width: 310px;
+    height: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+.font-violet
+{
+    color: rgba(94,10,43,255);
+}
+
+.faq
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.faq h2
+{
+    margin-left: 75px;
+}
+
+.faq hr
+{
+    width: 1040px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.difference-between
+{
+    margin-left: 75px;
+}
+
+.arrow-down
+{
+    margin-left: 180px;
+}
 
 footer
 {
