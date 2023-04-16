@@ -258,7 +258,7 @@ div.main-and-aside .main
 
 .white-fill
 {
-    fill:white;
+    filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(29deg) brightness(103%) contrast(101%);
 }
 
 .wrapper 
@@ -520,6 +520,200 @@ ul.highlights li
     top: 33px;
     right: 0px;
     margin-right: 0px;
+}
+
+.do-more-things
+{
+    margin-top: 200px;
+    margin-bottom: -500px;
+}
+
+.do-more-things-container .row
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px; 
+}
+
+.do-more-things-container .column
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.do-more-things-container .column img
+{
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.do-more-things-container .column h3
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.do-more-things-container .column p
+{
+    font-size: 21px;
+    line-height: 2rem;
+    width: 365px;
+    margin-right: 35px;
+}
+
+.do-more-things-container .row-1
+{
+    margin-top: 50px;
+}
+
+.do-more-things-container .row-2
+{
+    margin-top: -450px; /*Da Eliminare*/
+}
+
+.dropbox-users
+{
+    margin: 0 auto;
+}
+
+.dropbox-users h2, .dropbox-users p
+{
+    padding-left: 75px;
+}
+
+.dropbox-users h2
+{
+    width: 800px;
+    height: 110px;
+    position: relative;
+    margin: 0;
+}
+
+.partner-instituions
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    margin: 0; 
+    width: 200px;
+    margin-bottom: -133px; /*NON VA BENE!*/
+}
+
+.partner-instituions .middle
+{
+    width: 665px;
+    height: 655px;
+    background-color: rgba(245,245,245,255);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    font-size: 17.1px;
+}
+
+#team-members-work-constantly
+{
+    font-size: 17.1px;
+    line-height: 22px;
+}
+
+.partner-instituions .middle img
+{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+}
+
+.square-section
+{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    width: 655px;
+    height: 655px;
+}
+
+.square
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-section img
+{
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.square .top .left 
+{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.square .top .left
+{
+    grid-row: 1;
+    grid-column: 2; 
+}
+
+.square .bottom .left 
+{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.square .bottom .right 
+{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.designit
+{
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.university-of-florida
+{
+    background-color: #0093ce;
+}
+
+.arizona-state-university
+{
+    background-color: #61092b;
+}
+
+.topps
+{
+    background-color: rgba(255,29,28,255);
+}
+
+.world-bicycle-relief
+{
+    background-color: rgba(213,1,32,255);
+}
+
+.hearst-corporation
+{
+    background-color: #b4d0e7;
+}
+
+.lonely-planet
+{
+    background-color: #0e2481;
+}
+
+.clear-channel
+{
+    background-color: #ffd830;
 }
 
 .dropbox-business-to-your-company
