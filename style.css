@@ -452,9 +452,14 @@ main section div.main-and-aside
     line-height: 25px;
 }
 
+#only-one-user
+{
+    margin-right: 160px;
+}
+
 span.users
 {
-
+    margin-right: 110px;
 }
 
 .plan-details ul li i
@@ -520,6 +525,32 @@ ul.highlights li
     top: 33px;
     right: 0px;
     margin-right: 0px;
+}
+
+#container-section-3 .aside
+{
+    line-height: 25px;
+    margin-top: 50px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+#container-section-3 .aside h3
+{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#container-section-3 .aside p
+{
+    font-size: 18px;
+}
+
+#container-section-3 .main img
+{
+    width: 620px;
+    height: 536px;
+    margin-left: 80px;
 }
 
 .do-more-things
