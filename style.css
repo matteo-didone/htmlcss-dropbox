@@ -378,6 +378,7 @@ main section div.main-and-aside
     flex-direction: column;
     max-width: 70%;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .all-plans
@@ -446,7 +447,6 @@ main section div.main-and-aside
 .plan-details ul li
 {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
     width: 100%;
     font-size: 18px;
