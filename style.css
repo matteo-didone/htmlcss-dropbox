@@ -509,7 +509,7 @@ ul.highlights li
 {
     border: 1px solid rgba(178,177,180,255);
     height: 270px;
-    width: 1040px;
+    width: 1030px;
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -518,7 +518,7 @@ ul.highlights li
 
 .team-plan
 {
-    width: 1039px;
+    width: 1029px;
     border-bottom: 1px solid rgba(178,177,180,255);
 }
 
@@ -569,8 +569,8 @@ ul.highlights li
 
 .do-more-things
 {
-    margin-top: 200px;
-    margin-bottom: -500px;
+    margin-top: 100px;
+    height: 1200px;
 }
 
 .do-more-things-container .row
@@ -618,18 +618,17 @@ ul.highlights li
 
 .do-more-things-container .row-2
 {
-    margin-top: -450px; /*Da Eliminare*/
+    position: relative;
+    bottom: 450px;
 }
 
 .dropbox-users
 {
     margin: 0 auto;
+    margin-top: 450px;
+    margin-bottom: 100px;
 }
 
-.dropbox-users h2, .dropbox-users p
-{
-    padding-left: 75px;
-}
 
 .dropbox-users h2
 {
@@ -889,4 +888,8 @@ footer
     color: #575a5f;
 }
 
-
+#section-3
+{
+    position: relative;
+    bottom: 100px;
+}
