@@ -202,6 +202,12 @@ div.main-and-aside .main
     height: 400px;
 }
 
+#aside-of-the-jumbotron
+{
+    position: relative;
+    bottom: 20px;
+}
+
 .button
 {
     background-color: rgba(1,97,255,255);
@@ -298,6 +304,13 @@ section.jumbotron .container-large p
     font-size: 1.1rem;
 }
 
+.container-large .main 
+{
+    position: relative;
+    bottom: 15px;
+}
+
+
 .aside 
 {
     text-align: left;
@@ -311,7 +324,7 @@ section.jumbotron .container-large p
 
 main>section
 {
-    padding: 6rem 0;
+    padding: 4rem 0;
 }
 
 main section img
@@ -421,7 +434,7 @@ main section div.main-and-aside
 {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: baseline;
     flex-direction: column;
     padding-top: 10px;
     text-align: left;
@@ -432,7 +445,7 @@ main section div.main-and-aside
 {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: baseline;
     flex-direction: column;
     margin-left: 30px;
     width: 255px;
@@ -447,7 +460,7 @@ main section div.main-and-aside
 .plan-details ul li
 {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
     width: 100%;
     font-size: 18px;
     line-height: 25px;
@@ -632,7 +645,7 @@ ul.highlights li
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
     margin: 0; 
-    margin-bottom: 96px;
+    margin-bottom: 50px;
     width: calc(100% / 3);
     height: calc(100vw / 3);
 }
@@ -755,6 +768,7 @@ ul.highlights li
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 370px;
 }
 
 .dropbox-business-to-your-company-container
@@ -773,7 +787,6 @@ ul.highlights li
     height: 110px;
     position: relative;
     margin: 0;
-
 }
 
 #white-button-free-trial
